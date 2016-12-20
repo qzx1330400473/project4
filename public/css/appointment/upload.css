@@ -1,0 +1,28 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  height: 35px;
+  background: #fff;
+  line-height: 35px;
+}
+body .header .icon-back {
+  position: absolute;
+  left: 15px;
+  font-weight: bold;
+}
+body .header .header_title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+body .header .icon-release {
+  position: absolute;
+  right: 15px;
+  color: #ea5404;
+  top: 0;
+  font-weight: bold;
+}
