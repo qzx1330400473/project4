@@ -1,0 +1,136 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  height: 35px;
+  background: #fff;
+  line-height: 35px;
+}
+body .header .icon-back {
+  content: '';
+  position: absolute;
+  left: 15px;
+  display: block;
+  width: 20px;
+  height: 36px;
+  background: url("../../../public/img/APP/loading/nav_back_icon@2x.png") no-repeat 0 center;
+  background-size: 50%;
+}
+body .header .header_title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+body .list {
+  height: 40px;
+  background: #fff;
+  margin-top: 10px;
+}
+body .list .list_need {
+  color: #ea5404;
+  float: left;
+  width: 50%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px solid #ea5404;
+}
+body .list .list_from {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 40px;
+}
+body .content {
+  height: 550px;
+  padding: 15px;
+}
+body .content .content_box {
+  height: 535px;
+}
+body .content .content_box .content_box_first {
+  padding: 15px;
+  background: #fff;
+  height: 95px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+body .content .content_box .content_box_first .tenant {
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  background: #15b755;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .broker {
+  background: #0193e6;
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .busiess {
+  background: #97b715;
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .agent {
+  background: #ea5404;
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .content_box_first_img {
+  height: 4px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background: url("../../../public/img/APP/need/content_list_border.9@2x.png") no-repeat;
+}
+body .content .content_box .content_box_first .content_box_first-text {
+  font-size: 12px;
+}
+body .content .content_box .content_box_first .realize {
+  position: absolute;
+  left: 40%;
+  width: 65px;
+  height: 25px;
+  padding-left: 20px;
+  background: #efeff4;
+  color: #707071;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 5px;
+}
+body .content .content_box .content_box_first .date {
+  font-size: 12px;
+  float: right;
+  color: #7f7f7f;
+  margin-top: 30px;
+}

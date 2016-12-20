@@ -1,0 +1,11 @@
+body {
+  background-color: #efefef;
+}
+.header {
+  display: flex;
+  height: 50px;
+  background-color: #fff;
+}
+.header .icon-back {
+  display: block;
+}

@@ -1,0 +1,191 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  height: 35px;
+  background: #fff;
+  line-height: 35px;
+}
+body .header .icon-back {
+  content: '';
+  position: absolute;
+  left: 15px;
+  display: block;
+  width: 20px;
+  height: 36px;
+  background: url("../../../public/img/APP/loading/nav_back_icon@2x.png") no-repeat 0 center;
+  background-size: 50%;
+}
+body .header .header_title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+body .user {
+  height: 85px;
+}
+body .user .detailer {
+  display: block;
+  height: 15px;
+  padding: 10px;
+  color: #c5c5c6;
+}
+body .user .information {
+  height: 40px;
+  background: url("../../../public/img/APP/oeder_details/content_img_user@2x.png") no-repeat 15px center #fff;
+  background-size: 11%;
+  padding-left: 70px;
+  padding-top: 10px;
+}
+body .user .information .name {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+body .user .information .identity {
+  font-size: 12px;
+  color: #646464;
+}
+body .user .information .line {
+  position: absolute;
+  right: 15%;
+  margin-top: -33px;
+  height: 30px;
+  width: 1px;
+  background: #e1e1e1;
+}
+body .user .information .pic_num {
+  float: right;
+  margin-top: -10px;
+  width: 40px;
+  height: 40px;
+  background: url("../../../public/img/APP/oeder_details/content_icon_call@2x.png") no-repeat;
+  background-size: 50%;
+}
+body .details_information {
+  height: 85px;
+  color: #646464;
+}
+body .details_information .title {
+  display: block;
+  height: 15px;
+  padding: 10px;
+  color: #c5c5c6;
+}
+body .details_information .information {
+  height: 55px;
+  background: #fff;
+  padding: 10px;
+  font-size: 12px;
+}
+body .details_information .information .name {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+body .details_information .information .hide {
+  margin-right: 22%;
+  display: block;
+  float: left;
+  margin-top: 5px;
+}
+body .details_information .information .hide_price {
+  margin-left: 13%;
+  display: block;
+  float: left;
+  margin-top: 5px;
+}
+body .details_date {
+  clear: both;
+  height: 80px;
+  color: #646464;
+}
+body .details_date .name {
+  display: block;
+  height: 25px;
+  line-height: 40px;
+  padding: 10px;
+  color: #c5c5c6;
+}
+body .details_date .date {
+  background: #fff;
+  height: 25px;
+  padding: 10px;
+}
+body .detail_status {
+  height: 220px;
+}
+body .detail_status .status {
+  display: block;
+  height: 25px;
+  line-height: 40px;
+  padding: 10px;
+  color: #c5c5c6;
+}
+body .detail_status .every_status {
+  height: 115px;
+  background: #fff;
+  padding: 10px;
+  font-size: 14px;
+  color: #646464;
+}
+body .detail_status .every_status .success {
+  height: 35px;
+  padding-top: 5px;
+  border-bottom: 1px solid #e1e1e1;
+}
+body .detail_status .every_status .success .week {
+  display: block;
+  font-size: 12px;
+  margin-left: 7px;
+}
+body .detail_status .every_status .success .order {
+  display: block;
+  float: right;
+  margin-top: -25px;
+}
+body .detail_status .every_status .success_last {
+  height: 35px;
+  padding-top: 5px;
+}
+body .detail_status .every_status .success_last .week {
+  display: block;
+  font-size: 12px;
+  margin-left: 7px;
+}
+body .detail_status .every_status .success_last .order {
+  display: block;
+  float: right;
+  margin-top: -25px;
+}
+body .bottom {
+  height: 50px;
+  position: fixed;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 0;
+  background: #fff;
+}
+body .bottom .bottom_list {
+  list-style: none;
+  left: 0;
+}
+body .bottom .bottom_list .list {
+  float: left;
+  width: 32%;
+  text-align: center;
+  color: #ea5404;
+  border-right: 1px solid #e1e1e1;
+}
+body .bottom .bottom_list .list_last {
+  float: left;
+  width: 32%;
+  text-align: center;
+  color: #ea5404;
+}

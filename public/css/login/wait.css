@@ -1,0 +1,32 @@
+body {
+  background: #b2b2b2;
+}
+body .sure {
+  position: absolute;
+  width: 272px;
+  height: 90px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+  top: 40%;
+  left: 15%;
+}
+body .sure .massage {
+  font-size: 12px;
+  color: #323232;
+}
+body .sure .line {
+  height: 1px;
+  width: 272px;
+  background: #d6d7dc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .sure .success {
+  width: 272px;
+  text-align: center;
+  font-size: 18px;
+  color: #ff5524;
+}

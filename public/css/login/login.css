@@ -1,0 +1,92 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 35px;
+  background: #fff;
+  line-height: 35px;
+}
+.header .icon-back {
+  content: '';
+  position: absolute;
+  left: 15px;
+  display: block;
+  width: 20px;
+  height: 36px;
+  background: url("../../../public/img/APP/loading/nav_back_icon@2x.png") no-repeat 0 center;
+  background-size: 50%;
+}
+.header .header_title {
+  display: inline-block;
+  width: 100%;
+  color: #ed692b;
+  text-align: center;
+  font-weight: bold;
+}
+.form-list {
+  height: 80px;
+  padding: 0;
+  margin-top: 20px;
+}
+.form-list .form-cell {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+}
+.form-list .form-cell .form-cell-name {
+  display: inline-block;
+  width: 50px;
+  padding-left: 30px;
+  background: url("../../../public/img/APP/loading/content_ID_icon@2x.png") 5px 10px no-repeat #fff;
+  background-size: 25% 50%;
+}
+.form-list .form-cell .form-cell-input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.form-list .form-cell-password {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  border-top: 1px solid #d6d7dc;
+}
+.form-list .form-cell-key {
+  display: inline-block;
+  width: 50px;
+  padding-left: 30px;
+  background: url("../../../public/img/APP/loading/content_password_icon@2x.png") 5px 10px no-repeat #fff;
+  background-size: 25% 50%;
+}
+.form-list .form-cell-keyword {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.bt_box {
+  margin-top: 30px;
+}
+.bt_box .bt_login {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 95%;
+  height: 44px;
+  background: #c7c7c7;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+}
+.form-loading {
+  margin-top: 15px;
+}
+.form-loading .form-loading-register {
+  color: #ed692b;
+  margin-left: 15px;
+}
+.form-loading .form-forget {
+  float: right;
+  margin-right: 25px;
+}

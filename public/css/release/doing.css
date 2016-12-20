@@ -1,0 +1,41 @@
+body {
+  background: #242221;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+body .bg_box {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 240px;
+}
+body .bg_box .box_left {
+  background: url("../../../public/img/APP/release/publish_btn02@2x.png") no-repeat;
+  width: 168px;
+  height: 188px;
+  background-size: 50%;
+  position: absolute;
+  left: 15%;
+  padding-top: 105px;
+  padding-left: 20px;
+}
+body .bg_box .box_right {
+  background: url("../../../public/img/APP/release/publish_btn01@2x.png") no-repeat;
+  width: 168px;
+  height: 188px;
+  background-size: 50%;
+  position: absolute;
+  left: 55%;
+  padding-top: 105px;
+  padding-left: 20px;
+}
+body .bg_box .false {
+  background: url("../../../public/img/APP/release/publish_close_icon@2x.png") no-repeat #242221;
+  width: 28px;
+  height: 28px;
+  background-size: 50%;
+  position: absolute;
+  left: 45%;
+  top: 85%;
+}

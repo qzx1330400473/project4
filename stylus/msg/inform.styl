@@ -1,0 +1,119 @@
+body
+    background #efefef
+    margin 0
+    padding 0
+    .tab_box
+        height 32px
+        padding 8px 0
+        background #fff
+        .tab_bar
+            display flex
+            list-style none
+            width 80%
+            height 30px
+            margin 0 auto
+            padding 0
+            border-radius 5px
+            border 1px solid #ff6666
+            color #ff6666
+            .tab_bar_cell1
+                flex 1
+                line-height 30px
+                text-align center
+            .tab_bar_cell
+                flex 1
+                line-height 30px
+                text-align center
+            .tab_bar_cell2
+                flex 1
+                line-height 30px
+                text-align center
+                margin-top -4px
+                &:after
+                    content ''
+                    display block
+                    width 1px
+                    height 30px
+                    background-color #ea5404
+                    margin-top -30px
+            #active
+                background #ea5404
+                color #fff
+    .content
+        height 550px
+        padding 15px
+        .content_box
+            height 535px
+            .content_box_first
+                background white
+                height 110px
+                border-radius 5px
+                margin-bottom 10px
+                .content_box_first_text
+                    font-size 14px
+                    padding 15px
+                    height 30px
+                    line-height 30px
+                    font-weight bold
+                    color #5c5c5c
+                .line
+                    padding 0
+                    height 1px
+                    width 100%
+                    background #d6d7dc
+                .content_box_first_text1
+                    font-size 12px
+                    padding 25px
+                    color #646464
+                .date
+                    font-size 12px
+                    height 30px
+                    line-height 30px
+                    float right
+                    color #7f7f7f
+                    margin-right 25px
+    .bottom
+            position fixed
+            height 50px
+            background #fff
+            bottom 0
+            left 0
+            right 0
+            .bottom-list
+                list-style none
+                font-size 12px
+                .list-first
+                    float left
+                    color #b4b4b4
+                    background url("../../img/APP/bottom-bar/bottom_nor_icon04@2x.png") no-repeat
+                    background-size 95% 35%
+                    padding 25px 0
+                .list-second
+                    float left
+                    margin-left 40px
+                    color #b4b4b4
+                    background url("../../img/APP/bottom-bar/bottom_nor_icon03@2x.png") no-repeat
+                    background-size 95% 35%
+                    padding 25px 0
+                .list-third
+                    float left
+                    margin-left 40px
+                    width 88px
+                    height 66px
+                    background url("../../img/APP/bottom-bar/bottom_icon05@2x.png") no-repeat
+                    background-size 60% 80%
+                    margin-top -10px
+                .list-forth
+                    float left
+                    margin-right 40px
+                    color #b4b4b4
+                    background url("../../img/APP/bottom-bar/bottom_press_icon02@2x.png") no-repeat
+                    background-size 95% 35%
+                    padding 25px 0
+                .list-fifth
+                    float left
+                    margin-right 40px
+                    color #b4b4b4
+                    background url("../../img/APP/bottom-bar/bottom_nor_icon01@2x.png") no-repeat
+                    background-size 100% 35%
+                    padding 25px 0

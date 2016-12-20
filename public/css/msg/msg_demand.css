@@ -1,0 +1,185 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+}
+body .tab_box {
+  height: 32px;
+  padding: 8px 0;
+  background: #fff;
+}
+body .tab_box .tab_bar {
+  display: flex;
+  list-style: none;
+  width: 80%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 5px;
+  border: 1px solid #f66;
+  color: #f66;
+}
+body .tab_box .tab_bar .tab_bar_cell1 {
+  flex: 1;
+  line-height: 30px;
+  text-align: center;
+}
+body .tab_box .tab_bar .tab_bar_cell {
+  flex: 1;
+  line-height: 30px;
+  text-align: center;
+}
+body .tab_box .tab_bar .tab_bar_cell:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 30px;
+  background-color: #ea5404;
+  margin-top: -30px;
+}
+body .tab_box .tab_bar #active {
+  background: #ea5404;
+  color: #fff;
+}
+body .content {
+  height: 550px;
+  padding: 15px;
+}
+body .content .content_box {
+  height: 535px;
+}
+body .content .content_box .content_box_first {
+  padding: 15px;
+  background: #fff;
+  height: 95px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+body .content .content_box .content_box_first .tenant {
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  background: #15b755;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .broker {
+  background: #0193e6;
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .busiess {
+  background: #97b715;
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .agent {
+  background: #ea5404;
+  margin-top: -5px;
+  float: right;
+  width: 55px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+body .content .content_box .content_box_first .content_box_first_img {
+  height: 4px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background: url("../../../public/img/APP/need/content_list_border.9@2x.png") no-repeat;
+}
+body .content .content_box .content_box_first .content_box_first-text {
+  font-size: 12px;
+}
+body .content .content_box .content_box_first .realize {
+  position: absolute;
+  left: 40%;
+  width: 65px;
+  height: 25px;
+  padding-left: 20px;
+  background: #efeff4;
+  color: #707071;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 5px;
+}
+body .content .content_box .content_box_first .date {
+  font-size: 12px;
+  float: right;
+  color: #7f7f7f;
+  margin-top: 30px;
+}
+body .bottom {
+  position: fixed;
+  height: 50px;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+body .bottom .bottom-list {
+  list-style: none;
+  font-size: 12px;
+}
+body .bottom .bottom-list .list-first {
+  float: left;
+  color: #b4b4b4;
+  background: url("../../img/APP/bottom-bar/bottom_nor_icon04@2x.png") no-repeat;
+  background-size: 95% 35%;
+  padding: 25px 0;
+}
+body .bottom .bottom-list .list-second {
+  float: left;
+  margin-left: 40px;
+  color: #b4b4b4;
+  background: url("../../img/APP/bottom-bar/bottom_nor_icon03@2x.png") no-repeat;
+  background-size: 95% 35%;
+  padding: 25px 0;
+}
+body .bottom .bottom-list .list-third {
+  float: left;
+  margin-left: 40px;
+  width: 88px;
+  height: 66px;
+  background: url("../../img/APP/bottom-bar/bottom_icon05@2x.png") no-repeat;
+  background-size: 60% 80%;
+  margin-top: -10px;
+}
+body .bottom .bottom-list .list-forth {
+  float: left;
+  margin-right: 40px;
+  color: #b4b4b4;
+  background: url("../../img/APP/bottom-bar/bottom_press_icon02@2x.png") no-repeat;
+  background-size: 95% 35%;
+  padding: 25px 0;
+}
+body .bottom .bottom-list .list-fifth {
+  float: left;
+  margin-right: 40px;
+  color: #b4b4b4;
+  background: url("../../img/APP/bottom-bar/bottom_nor_icon01@2x.png") no-repeat;
+  background-size: 100% 35%;
+  padding: 25px 0;
+}

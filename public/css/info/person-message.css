@@ -1,0 +1,100 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+}
+body .header {
+  height: 35px;
+  background: #fff;
+  line-height: 35px;
+}
+body .header .icon-back {
+  content: '';
+  position: absolute;
+  left: 15px;
+  display: block;
+  width: 20px;
+  height: 36px;
+  background: url("../../../public/img/APP/loading/nav_back_icon@2x.png") no-repeat 0 center;
+  background-size: 50%;
+}
+body .header .header_title {
+  display: inline-block;
+  width: 100%;
+  color: #ed692b;
+  text-align: center;
+  font-weight: bold;
+}
+body .content {
+  height: 190px;
+  background: #fff;
+  padding-top: 30px;
+  border-top: 1px solid #b4b4b4;
+}
+body .content .head-portrait {
+  font-size: 12px;
+  color: #fff;
+  padding-top: 25px;
+  padding-left: 10px;
+  height: 40px;
+  width: 55px;
+  margin-left: 40%;
+  background: url("../../../public/img/APP/me/20161214203310.png") no-repeat #878787;
+  background-size: 70px 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+body .content .project {
+  position: absolute;
+  left: 35%;
+  color: #323232;
+  font-size: 26px;
+  font-weight: bold;
+}
+body .content .name {
+  position: absolute;
+  left: 25%;
+  font-size: 12px;
+  color: #646464;
+  margin-top: 20px;
+}
+body .content .write {
+  height: 35px;
+  width: 95px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  border: 1px solid #ea5404;
+  color: #ea5404;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+body .down {
+  margin-top: 15px;
+  background: #fff;
+  height: 255px;
+}
+body .down .lable {
+  color: #646464;
+}
+body .down .lable .height {
+  height: 40px;
+}
+body .down .about {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+body .down .about .about-box {
+  float: left;
+  background: #878787;
+  height: 20px;
+  padding-top: 45px;
+  line-height: 65px;
+  color: #8a8280;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
