@@ -26,3 +26,8 @@ body .header .icon-release {
   top: 0;
   font-weight: bold;
 }
+body .content {
+  width: 60%;
+  height: 50%;
+  border: 1px solid #f00;
+}
